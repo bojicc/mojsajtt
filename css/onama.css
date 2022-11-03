@@ -1,0 +1,115 @@
+body{
+    background-image: url(../pocetna/pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meni{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.meni a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: font1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .meni a{
+        width: 100%;
+    }
+    
+    #naslov{
+        width: 100%;
+    }
+
+    .lista{
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../font/BakbakOne-Regular.ttf);
+}
+
+.meni a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+#kontakt:hover{
+    border: 1px solid white;
+    background-color: blue;
+    padding: 2px;
+    color: white;
+}
+
+.meni a:active{
+    color: gray;
+}
+
+#naslov{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+.tekst h1{
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.tekst p{
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+}
+
+.tekst span{
+    font-weight: bold;
+}
+
+.lista p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.lista ul{
+    list-style: square;
+    margin-bottom: 100px;
+}
+
+.lista li{
+    color: white;
+}
+
+.lista ol{
+    list-style-type: lower-latin;
+}
+
+.podaci h2{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.podaci p{
+    padding-left: 25px;
+    color: white;
+}

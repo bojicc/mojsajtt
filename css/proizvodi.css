@@ -1,0 +1,147 @@
+body{
+    background-image: url(../pocetna/pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+.meni{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.meni a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: font1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .meni a{
+        width: 100%;
+    }
+
+    #s1{
+        width: 100%;
+    }
+
+    #s2{
+        width: 100%;
+    }
+
+    #s3{
+        width: 100%;
+    }
+
+    table{
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../font/BakbakOne-Regular.ttf)
+}
+
+.meni a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+#kontakt:hover{
+    border: 1px solid white;
+    background-color: blue;
+    padding: 2px;
+    color: white;
+}
+
+.meni a:active{
+    color: gray;
+}
+
+#naslov{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+#tekst{
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 25px;
+}
+
+table{
+    border: 1px solid rgb(204, 201, 201);
+    width: 350px;
+    height: 100px;
+}
+
+
+table caption{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#siva{
+    color: white;
+    padding: 5px;
+    background-color: gray;
+}
+
+#plava{
+    color: white;
+    padding: 5px;
+    background-color: rgb(162, 197, 209);
+}
+
+p{
+    text-align: center;
+    color: #fff;
+    margin: 25px;
+}
+
+#s1{
+    width: 400px;
+    height: 200px;
+    padding-left: 100px;
+}
+
+#s2{
+    width: 400px;
+    height: 200px;
+    padding-left: 50px;
+}
+
+#s3{
+    width: 400px;
+    height: 200px;
+    padding-left: 50px;
+}
+
+#divajder img{
+    width: 150px;
+    height: 150px;
+    background-image: url(../slike/inox.jpg);
+    border-radius: 50px;
+    position: relative;
+    border: 2px solid black;
+    margin-top: 70px;
+    animation: animacija;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animacija {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

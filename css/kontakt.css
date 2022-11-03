@@ -1,0 +1,115 @@
+body{
+    background-image: url(../pocetna/pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meni{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.meni a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: font1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:300px) {
+    .meni a{
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../font/BakbakOne-Regular.ttf);
+}
+
+.meni a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+#kontakt:hover{
+    border: 1px solid white;
+    background-color: blue;
+    padding: 2px;
+    color: white;
+}
+
+.meni a:active{
+    color: gray;
+}
+
+#naslov{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+form{
+    color: white;
+}
+
+form fieldset legend{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input[type="text"]{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 0px 20px;
+}
+
+#sekcija{
+    width: 200px;
+    height: 30px;
+    background-color: lightblue;
+}
+
+input[type="reset"]{
+    width: 120px;
+    height: 30px;
+    margin: 30px 30px;
+    display: block;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+input[type="text"]:hover, input[type="reset"]:hover{
+    -webkit-box-shadow: 23px 4px 14px -1px rgba(188,214,208,0.9); 
+    box-shadow: 23px 4px 14px -1px rgba(188,214,208,0.9);
+}
+
+input[type="reset"]:hover{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+input[type="text"]:nth-child(even){
+    background-color: lightblue;
+}
+
+input[type="text"]:nth-child(odd){
+    background-color: rgb(228, 228, 174);
+}
