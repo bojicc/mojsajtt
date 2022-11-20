@@ -1,4 +1,4 @@
 User-agent: * 
-Disallow:
+Disallow: /slike/
 
 sitemap: https://bojicc.github.io/mojsajtt/stimemap.xml
