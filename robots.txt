@@ -1,4 +1,0 @@
-User-agent: *
-Disallow
-
-sitemap: https://bojicc.github.io/mojsajtt/sitemap.xml
